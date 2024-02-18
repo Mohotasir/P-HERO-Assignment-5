@@ -10,7 +10,7 @@
     <title> Buy Bus Ticket</title>
 </head>
 <body>
-    <header class="w-[85%] mx-auto font-raleway">
+    <header class="  md:w-[85%] mx-auto font-raleway">
         <div class="navbar bg-base-100 py-6">
             <div class="navbar-start">
               <div class="dropdown">
@@ -42,41 +42,68 @@
               <a class="btn text-[#1DD100] text-[20px] font-bold bg-[#E8FAE5] border-[#C8F4C1] "><span class="drop-shadow-mdshadow-2xl">Bus</span> <img src="./images/bus-icon.png" alt=""></a>
             </div>
           </div>
-          <div class="hero h-[90vh] rounded-3xl flex flex-col justify-center items-center bg-[url(./images/banner.png),linear-gradient(180deg,#030712,#FFFFFF)] bg-cover bg-no-repeat">
-             <div class="hero-des max-w-[800px] text-center bg-[#FFFFFF33] p-4 rounded-md ">
-                 <h1 class="text-white font-extrabold text-6xl mb-8"> Comportable Travel with</h1>
-                 <h2 class="text-[#1DD100] font-extrabold text-6xl mb-8">T-Paribahan</h2>
+          <div class="hero h-[70vh] md:h-[90vh] rounded-3xl flex flex-col justify-center items-center bg-[url(./images/banner.png),linear-gradient(180deg,#030712,#FFFFFF)] bg-cover bg-no-repeat">
+             <div class="hero-des w-[95%] md:max-w-[800px] text-center bg-[#FFFFFF33] p-4 rounded-xl ">
+                 <h1 class="text-white font-extrabold text-5xl md:text-6xl mb-8"> Comportable Travel with</h1>
+                 <h2 class="text-[#1DD100] font-extrabold text-5xl md:text-6xl mb-8">T-Paribahan</h2>
                  <p class="text-white mb-8 font-inter ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error ipsa quas temporibus nemo aperiam nostrum natus distinctio. Doloribus, necessitatibus.</p>
                  <button class="btn btn-primary bg-[#1DD100] text-black font-bold border-none text-xl">Buy Ticket</button>
              </div>
           </div>
-          <div class="offer mt-24">
+          <!--  -->
+           <div class="flex flex-col md:flex-row justify-around mt-[-70px]">
+             <div class="flex px-12 py-8 font-inter bg-white rounded-3xl border-b-2 border-b-[#1DD100] hover:bg-[linear-gradient(360deg,#1DD100,#FFFFFF)]">
+                <img src="./images/people.png" alt="">
+                <div class="pl-4">
+                    <h2 class="font-bold text-[30px] ">500K+</h2>
+                    <p class="text-gray-500">Registered Users</p>
+                </div>
+             </div>
+             <div class="flex px-12 py-8 font-inter bg-white rounded-3xl border-b-2 border-b-[#1DD100] hover:bg-[linear-gradient(360deg,#1DD100,#FFFFFF)]">
+                <img src="./images/ticket-cupon.png" alt="">
+                <div class="pl-4">
+                    <h2 class="font-bold text-[30px] ">1.2 Lacks</h2>
+                    <p class="text-gray-500">Ticket Sold</p>
+                </div>
+             </div >
+             <div class="flex px-12 py-8 font-inter bg-white rounded-3xl border-b-2 border-b-[#1DD100] hover:bg-[linear-gradient(360deg,#1DD100,#FFFFFF)]">
+                <img src="./images/stoppage.png" alt="">
+                <div class="pl-4">
+                    <h2 class="font-bold text-[30px] ">80K+</h2>
+                    <p class="text-gray-500">Rental Partners</p>
+                </div>
+             </div>
+           </div>
+          <div class="offer mt-16 md:mt-24 mx-4 md:mx-0">
             <div class="text-center text-[40px] font-bold font-raleway"><h1>Best offers for you</h1></div>
-            <div class="card-div py-12 flex justify-between">
+            <div class="card-div py-12 flex flex-col gap-4 md:gap-0 md:flex-row justify-between">
                 <div class="left-div font-inter flex bg-[#FFBF0F] rounded-3xl">
-                    <div class=" px-8 text-left flex flex-col  justify-center  ">
+                    <div class="px-2 md:px-12 text-left flex flex-col  justify-center  ">
                         <h1 class="text-black text-[30px] font-extrabold">15% OFF</h1>
                         <h5 class="text-black text-[18px] font-bold mb-2">On your next purchase</h5>
                         <p class="text-[#29292b]">use by February 2024</p>
                     </div>
                     <img src="./images/cupon-devider.png" alt="">
-                    <div class="px-8 text-left font-raleway flex flex-col  justify-center ">
+                    <div class="px-2 md:px-12 text-left font-raleway flex flex-col  justify-center ">
                         <h1 class="text-[#030712] text-[26px] font-bold">NEW15</h1>
                         <p class="text-[#29292b]">Cupon Code</p>
                     </div>
                 </div>
                 <div class="left-div font-inter flex bg-[#F78C9C] rounded-3xl">
-                    <div class=" px-8 text-left flex flex-col  justify-center  ">
-                        <h1 class="text-black text-[30px] font-extrabold">15% OFF</h1>
+                    <div class="px-2 md:px-12 text-left flex flex-col  justify-center  ">
+                        <h1 class="text-black text-[30px] font-extrabold">20% OFF</h1>
                         <h5 class="text-black text-[18px] font-bold mb-2">On your next purchase</h5>
                         <p class="text-[#29292b]">use by February 2024</p>
                     </div>
                     <img src="./images/cupon-devider.png" alt="">
-                    <div class="px-8 text-left font-raleway flex flex-col items-center justify-center ">
+                    <div class="px2 md:px-12 text-left font-raleway flex flex-col items-center justify-center ">
                         <h1 class="text-[#030712] text-[26px] font-bold">Couple 20</h1>
                         <p class="text-[#29292b]">Cupon Code</p>
                     </div>
                 </div>
+            </div>
+            <div class="text-center">
+                <button class="btn border-[#1DD100] bg-white text-[#1DD100] font-bold">See All Offers</button>
             </div>
           </div>
 
