@@ -13,3 +13,9 @@
 .color-primary{
     color:#1DD100;
 }
+.show-details{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
