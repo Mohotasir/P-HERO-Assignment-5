@@ -47,7 +47,7 @@
                  <h1 class="text-white font-extrabold text-5xl md:text-6xl mb-8"> Comportable Travel with</h1>
                  <h2 class="text-[#1DD100] font-extrabold text-5xl md:text-6xl mb-8">T-Paribahan</h2>
                  <p class="text-white mb-8 font-inter ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error ipsa quas temporibus nemo aperiam nostrum natus distinctio. Doloribus, necessitatibus.</p>
-                 <button class="btn btn-primary bg-[#1DD100] text-black font-bold border-none text-xl">Buy Ticket</button>
+                 <button id="buy-ticket-btn" class="btn btn-primary bg-[#1DD100] text-black font-bold border-none text-xl">Buy Ticket</button>
              </div>
           </div>
           <!--  -->
@@ -109,7 +109,7 @@
 
     </header>
     <main class="mt-24">
-        <div class="rounded-t-[60px] border-t-2 border-t-[#1DD100] py-24 bg-[#F7F8F8]">
+        <div id="booking-section" class="rounded-t-[60px] border-t-2 border-t-[#1DD100] py-24 bg-[#F7F8F8]">
             <div class="max-w-[730px] mx-auto">
                 <h1 class="text-center text-[40px] font-bold font-raleway mb-4">T-Paribahan</h1>
                 <p class="text-[#AEAFB3] font-inter text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
@@ -126,7 +126,7 @@
                         </div> 
                         <div class="flex bg-[#C0F2B8] p-[16px] rounded-lg font-bold">
                             <img class="mr-2" src="./images/seat-green.png" alt="">
-                            <p class="text-[#1DD100] "><span>40 </span>Seat left</p>
+                            <p class="text-[#1DD100] "><span id="seat-counter" class="text-2xl">40 </span>Seat left</p>
                         </div>
                     </div>
                     <div class="bg-[#F7F8F8] rounded-3xl p-6">
@@ -173,7 +173,7 @@
                                 
                             </div> -->
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12"><img class="w-6 h-12 py-2" src="./images/staring-removebg-preview.png" alt=""></button>
+                                <button id="" class="btn bg-[#d2dad0] px-4 md:px-12"><img class="w-6 h-12 py-2" src="./images/staring-removebg-preview.png" alt=""></button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
@@ -189,101 +189,101 @@
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">B</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">B1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">B2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">B3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">B4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">C</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">C1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">C2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">C3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">C4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">D</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">D1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">D2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">D3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">D4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">E</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">E1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">E2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">E3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">E4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">F</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">F1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">F2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">F3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">F4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">G</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">G1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">G2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">G3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">G4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">H</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">H1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">H2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">H3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">H4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">I</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">I1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">I2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">I3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">I4</button>
                             </div>
                         </div>
                         <div class="flex justify-between items-center mb-6">
                             <div class="flex flex-1 justify-start ">
-                                <button class="mr-4 md:mr-12">A</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A1</button>
-                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">A2</button>
+                                <button class="mr-4 md:mr-12">J</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">J1</button>
+                                <button class="sit btn bg-[#d2dad0] px-4 md:px-12">J2</button>
                             </div>
                             <div class="flex flex-1 justify-end">
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">A3</button>
-                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">A4</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12 mr-4 md:mr-12">J3</button>
+                                <button id="" class="sit btn bg-[#d2dad0] px-4 md:px-12">J4</button>
                             </div>
                         </div>
                     </div>
@@ -298,11 +298,11 @@
                             <p>Class</p>
                             <p>Price</p>
                         </div>
-                        <div class="border-b-2">
+                        <div id="show-ticket-details-container" class="border-b-2">
                             <div id="show-details-box"  class="show-details ">
-                                <p>C2</p>
+                                <!-- <p>C2</p>
                                 <p>economy</p>
-                                <p>550</p>
+                                <p>550</p> -->
                             </div>
                         </div>
                         <div class="flex justify-between pb-2 font-bold">
@@ -317,7 +317,7 @@
                         <div class="flex justify-between p-2 font-bold ">
                             <p>Grand Total</p>
                            
-                            <p>BDT <span id="total-price">0000</span></p>
+                            <p>BDT <span id="grand-price">0000</span></p>
                         </div>
                     </div>
                     <form class="flex flex-col" action="">
@@ -359,5 +359,6 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
